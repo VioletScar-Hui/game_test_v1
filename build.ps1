@@ -2,6 +2,7 @@ $jsDir = Join-Path $PSScriptRoot "js"
 $outputDir = $PSScriptRoot
 $bundleFile = Join-Path $outputDir "bundle.js"
 $htmlFile = Join-Path $outputDir "play.html"
+$indexFile = Join-Path $outputDir "index.html"
 
 $fileOrder = @(
     'config/constants.js',
@@ -136,13 +137,15 @@ $htmlContent = @'
 </head>
 <body>
   <canvas id="gameCanvas"></canvas>
-  <script src="bundle.js?v=20260615-compact-impacts"></script>
+  <script src="bundle.js?v=20260615-menu-layout"></script>
 </body>
 </html>
 '@
 
 [System.IO.File]::WriteAllText($htmlFile, $htmlContent, [System.Text.Encoding]::UTF8)
+[System.IO.File]::WriteAllText($indexFile, $htmlContent, [System.Text.Encoding]::UTF8)
 
 Write-Host "Bundle created: $bundleFile"
 Write-Host "Play HTML created: $htmlFile"
+Write-Host "Index HTML created: $indexFile"
 Write-Host "Double-click play.html to start the game!"

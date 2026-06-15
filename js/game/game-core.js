@@ -177,7 +177,7 @@ export class Game {
 
   _initMenu() {
     const btnW = 276, btnH = 48, gap = 12;
-    const startY = 318;
+    const startY = 348;
     const cx = 230;
     this.menuButtons = [
       new MenuButton(cx - btnW / 2, startY, btnW, btnH, '开始游戏', () => { this.setState('LEVEL_SELECT'); this.audio.playMenuClick(); }),

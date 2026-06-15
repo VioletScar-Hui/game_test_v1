@@ -44,7 +44,7 @@ function renderMainMenuChrome(ctx, game) {
   const panelX = 58;
   const panelY = 270;
   const panelW = 344;
-  const panelH = 374;
+  const panelH = 400;
   ctx.save();
   ctx.shadowColor = 'rgba(0, 0, 0, 0.65)';
   ctx.shadowBlur = 26;

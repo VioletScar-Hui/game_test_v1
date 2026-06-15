@@ -11171,7 +11171,7 @@ function renderMainMenuChrome(ctx, game) {
   const panelX = 58;
   const panelY = 270;
   const panelW = 344;
-  const panelH = 374;
+  const panelH = 400;
   ctx.save();
   ctx.shadowColor = 'rgba(0, 0, 0, 0.65)';
   ctx.shadowBlur = 26;
@@ -12301,7 +12301,7 @@ class Game {
 
   _initMenu() {
     const btnW = 276, btnH = 48, gap = 12;
-    const startY = 318;
+    const startY = 348;
     const cx = 230;
     this.menuButtons = [
       new MenuButton(cx - btnW / 2, startY, btnW, btnH, '开始游戏', () => { this.setState('LEVEL_SELECT'); this.audio.playMenuClick(); }),
