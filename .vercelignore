@@ -1,0 +1,9 @@
+docs/
+scripts/
+tests/
+.superpowers/
+assest/references/
+PRD.md
+Game_Lore_Prompts_Package.md
+vampire_survivors.html
+*.ps1

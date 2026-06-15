@@ -75,6 +75,12 @@ docs/_build/
 .pybuilder/
 target/
 
+# Local/game deployment artifacts
+.vercel/
+.superpowers/
+node_modules/
+assest/references/
+
 # Jupyter Notebook
 .ipynb_checkpoints
 

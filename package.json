@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "node tests/animation-state.test.mjs && node tests/m1-m2-systems.test.mjs && node tests/m3-systems.test.mjs && node tests/m4-systems.test.mjs && node tests/m1-m3-functionality.test.mjs && node tests/m1-m3-asset-files.test.mjs && node tests/level-select-regression.test.mjs && node tests/whip-slash-render.test.mjs && node tests/asset-animation-manifest.test.mjs && node tests/visual-scale.test.mjs && node tests/weapon-action-assets.test.mjs && node tests/bestiary-redesign.test.mjs && node tests/weapon-preview-model.test.mjs && node tests/weapon-visual-runtime.test.mjs && node tests/level-unlock-boss-clear.test.mjs && node tests/bestiary-unlock-runtime.test.mjs"
+  }
+}
